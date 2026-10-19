@@ -10,6 +10,8 @@ int main()
     int n;
     cin >> n;
     vt<int> a = {100, 200, 300};
+    a.push_back(n);
+
     FOR(i, 0, a.size())
     {
         cout << a[i] << " ";
